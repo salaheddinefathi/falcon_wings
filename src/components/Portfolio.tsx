@@ -49,7 +49,7 @@ export default function Portfolio() {
           <span className="text-falcon-blue font-semibold text-sm uppercase tracking-widest">
             Our Work
           </span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mt-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-falcon-navy leading-tight mt-3">
             Portfolio
           </h2>
         </motion.div>

@@ -72,7 +72,7 @@ export default function HowItWorks() {
           <span className="text-falcon-blue font-semibold text-sm uppercase tracking-widest">
             Simple Process
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mt-2">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-falcon-navy leading-tight mt-2">
             How It Works
           </h2>
         </motion.div>
@@ -162,7 +162,7 @@ export default function HowItWorks() {
                   <div className="lg:text-center flex-1 lg:px-3">
                     <h3
                       className={`text-base lg:text-lg font-bold transition-colors duration-500 mb-1 ${
-                        isActive ? "text-white" : "text-gray-500"
+                        isActive ? "text-falcon-navy" : "text-gray-500"
                       }`}
                     >
                       {step.title}

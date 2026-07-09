@@ -37,7 +37,7 @@ export default function Products() {
           <span className="text-falcon-blue font-semibold text-sm uppercase tracking-widest">
             Our Collection
           </span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mt-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-falcon-navy leading-tight mt-3">
             Featured Products
           </h2>
         </motion.div>
@@ -62,7 +62,7 @@ export default function Products() {
                 />
               </div>
               <div className="p-6 flex flex-col flex-1">
-                <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
+                <h3 className="text-xl md:text-2xl font-bold text-falcon-navy mb-2">
                   {product.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed mb-6 flex-1">
