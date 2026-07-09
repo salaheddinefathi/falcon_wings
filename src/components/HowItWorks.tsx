@@ -101,7 +101,7 @@ export default function HowItWorks() {
                     <div
                       className={`w-14 h-14 lg:w-[68px] lg:h-[68px] rounded-2xl flex items-center justify-center shrink-0 border-2 transition-all duration-500 ${
                         isActive
-                          ? "bg-orange-400 text-falcon-navy border-orange-400 shadow-lg shadow-orange-400/25"
+                          ? "bg-orange-400 text-black border-orange-400 shadow-lg shadow-orange-400/25"
                           : "bg-gray-100 text-gray-500 border-gray-300"
                       }`}
                     >
