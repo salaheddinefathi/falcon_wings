@@ -45,10 +45,11 @@ export default function HowItWorks() {
       timeouts.length = 0;
 
       setActiveStep(0);
-      timeouts.push(setTimeout(() => setActiveStep(1), 400));
-      timeouts.push(setTimeout(() => setActiveStep(2), 1300));
-      timeouts.push(setTimeout(() => setActiveStep(3), 2200));
-      timeouts.push(setTimeout(() => setActiveStep(4), 3100));
+      // Light up one by one smoothly
+      timeouts.push(setTimeout(() => setActiveStep(1), 600));
+      timeouts.push(setTimeout(() => setActiveStep(2), 1600));
+      timeouts.push(setTimeout(() => setActiveStep(3), 2600));
+      timeouts.push(setTimeout(() => setActiveStep(4), 3600));
     };
 
     runLoop();
@@ -78,58 +79,6 @@ export default function HowItWorks() {
         </motion.div>
 
         <div className="relative">
-          <div className="hidden lg:block relative h-14">
-            <div className="absolute top-1/2 -translate-y-1/2 left-[6%] right-[6%] h-[3px] bg-gray-200 rounded-full">
-              <motion.div
-                className="h-full bg-falcon-blue rounded-full"
-                initial={{ width: "0%" }}
-                animate={{ width: "100%" }}
-                transition={{
-                  duration: 4,
-                  ease: "easeInOut",
-                  repeat: Infinity,
-                  repeatDelay: 1,
-                }}
-              />
-            </div>
-            <motion.div
-              className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-[18px] h-[18px] rounded-full bg-falcon-blue shadow-[0_0_12px_rgba(245,166,35,0.6)] z-10"
-              initial={{ left: "6%" }}
-              animate={{ left: "94%" }}
-              transition={{
-                duration: 4,
-                ease: "easeInOut",
-                repeat: Infinity,
-                repeatDelay: 1,
-              }}
-            />
-          </div>
-
-          <div className="lg:hidden absolute left-[38px] top-0 bottom-0 w-[3px] bg-gray-200 rounded-full">
-            <motion.div
-              className="w-full bg-falcon-blue rounded-full"
-              initial={{ height: "0%" }}
-              animate={{ height: "100%" }}
-              transition={{
-                duration: 4,
-                ease: "easeInOut",
-                repeat: Infinity,
-                repeatDelay: 1,
-              }}
-            />
-          </div>
-          <motion.div
-            className="lg:hidden absolute left-[29px] top-0 -translate-x-1/2 w-[18px] h-[18px] rounded-full bg-falcon-blue shadow-[0_0_12px_rgba(245,166,35,0.6)] z-10"
-            initial={{ top: "0%" }}
-            animate={{ top: "100%" }}
-            transition={{
-              duration: 4,
-              ease: "easeInOut",
-              repeat: Infinity,
-              repeatDelay: 1,
-            }}
-          />
-
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 relative mt-0 lg:-mt-2">
             {steps.map((step, index) => {
               const stepNum = parseInt(step.number);

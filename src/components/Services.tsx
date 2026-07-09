@@ -5,21 +5,18 @@ import Image from "next/image";
 
 const services = [
   {
-    icon: "👕",
     title: "Custom T-Shirts",
     description:
       "High-quality screen printing and DTG for t-shirts of all styles and sizes.",
     image: "/images/falcon-wings/service-printing.jpg",
   },
   {
-    icon: "🏋️",
     title: "Hoodies & Sweatshirts",
     description:
       "Premium fleece hoodies with custom designs. Perfect for branding or events.",
     image: "/images/falcon-wings/portfolio-3.jpg",
   },
   {
-    icon: "⚽",
     title: "Football Jerseys",
     description:
       "Full sublimation jerseys for teams, clubs, and events. Vibrant colors guaranteed.",
@@ -66,7 +63,6 @@ export default function Services() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
               </div>
               <div className="p-6 md:p-8">
-                <span className="text-4xl block mb-4">{service.icon}</span>
                 <h3 className="text-xl md:text-2xl font-bold text-falcon-navy mb-3">
                   {service.title}
                 </h3>
