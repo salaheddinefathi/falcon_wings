@@ -5,44 +5,34 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Custom T-Shirt Printing",
-    category: "T-Shirts",
-    image: "/images/falcon-wings/gallery-1-new.png",
+    title: "Anime Collection Lookbook",
+    category: "Lifestyle",
+    image: "/images/falcon-wings/hero.jpg",
   },
   {
-    title: "Premium Quality Products",
-    category: "Products",
-    image: "/images/falcon-wings/gallery-2.webp",
+    title: "Custom T-Shirt Print",
+    category: "Premium Apparel",
+    image: "/images/falcon-wings/hero-tshirt.jpg",
   },
   {
-    title: "Custom Tote Bags",
-    category: "Accessories",
-    image: "/images/falcon-wings/tote-bag.webp",
+    title: "DTF Print Close-Up",
+    category: "Print Quality",
+    image: "/images/falcon-wings/service-printing.jpg",
   },
   {
-    title: "Football Jersey Design",
-    category: "Sports",
-    image: "/images/falcon-wings/gallery-3.webp",
+    title: "Streetwear Lifestyle",
+    category: "Brand Shoot",
+    image: "/images/falcon-wings/portfolio-1.jpg",
   },
   {
-    title: "Cap Embroidery",
-    category: "Accessories",
-    image: "/images/falcon-wings/hero-cap.webp",
+    title: "Outdoor Collection",
+    category: "Client Work",
+    image: "/images/falcon-wings/portfolio-2.jpg",
   },
   {
-    title: "Custom Printing Work",
-    category: "Printing",
-    image: "/images/falcon-wings/service-dtf-new.png",
-  },
-  {
-    title: "Brand Identity",
-    category: "Branding",
-    image: "/images/falcon-wings/logo-area.webp",
-  },
-  {
-    title: "Product Showcase",
-    category: "Showcase",
-    image: "/images/falcon-wings/gallery-4.webp",
+    title: "REM Anime Design",
+    category: "Custom Design",
+    image: "/images/falcon-wings/portfolio-3.jpg",
   },
 ];
 
@@ -64,7 +54,7 @@ export default function Portfolio() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <motion.div
               key={`${project.title}-${index}`}

@@ -8,37 +8,19 @@ const products = [
     title: "Custom T-Shirts",
     description:
       "Premium cotton t-shirts with your design. Perfect for events, businesses, and personal use.",
-    image: "/images/falcon-wings/hero-tshirt-new.png",
+    image: "/images/falcon-wings/hero-tshirt.jpg",
   },
   {
-    title: "Hoodies",
+    title: "Anime & Otaku Collection",
     description:
-      "Warm and stylish hoodies with full-color custom printing. Ideal for branding and gifts.",
-    image: "/images/falcon-wings/service-hoodie-new.png",
+      "High-quality DTF printed anime designs on premium fabric. Vibrant colors that last.",
+    image: "/images/falcon-wings/service-printing.jpg",
   },
   {
-    title: "Football Jerseys",
+    title: "Custom Designs",
     description:
-      "Fully customized sublimation jerseys. Team names, numbers, sponsors — all included.",
-    image: "/images/falcon-wings/service-jersey-new.png",
-  },
-  {
-    title: "Tote Bags",
-    description:
-      "Custom printed canvas tote bags for your brand, events, or personal use. Eco-friendly and stylish.",
-    image: "https://images.unsplash.com/photo-1544816155-12df9643f363?q=80&w=800&auto=format&fit=crop",
-  },
-  {
-    title: "Caps & Hats",
-    description:
-      "Premium embroidered caps. Great for sports teams, giveaways, and modern streetwear.",
-    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop",
-  },
-  {
-    title: "Custom Mugs",
-    description:
-      "High-quality ceramic mugs with vibrant full-color sublimation printing for corporate gifts.",
-    image: "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?q=80&w=800&auto=format&fit=crop",
+      "Bring any design to life. Full-color printing with stunning detail and durability.",
+    image: "/images/falcon-wings/portfolio-3.jpg",
   },
 ];
 

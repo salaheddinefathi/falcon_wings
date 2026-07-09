@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-falcon-navy/85 via-falcon-navy/70 to-falcon-navy/50" />
         <Image
-          src="/images/falcon-wings/hero-bg-new.png"
+          src="/images/falcon-wings/hero.jpg"
           alt="Falcon Wings custom printing products"
           fill
           sizes="100vw"
@@ -78,7 +78,7 @@ export default function Hero() {
           >
             <div className="relative aspect-[4/3] lg:aspect-square rounded-3xl overflow-hidden shadow-2xl shadow-black/30 border border-white/10">
               <Image
-                src="/images/falcon-wings/hero-tshirt-new.png"
+                src="/images/falcon-wings/hero-tshirt.jpg"
                 alt="Falcon Wings custom t-shirt printing"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"

@@ -9,21 +9,21 @@ const services = [
     title: "Custom T-Shirts",
     description:
       "High-quality screen printing and DTG for t-shirts of all styles and sizes.",
-    image: "/images/falcon-wings/service-dtf-new.png",
+    image: "/images/falcon-wings/service-printing.jpg",
   },
   {
     icon: "🏋️",
     title: "Hoodies & Sweatshirts",
     description:
       "Premium fleece hoodies with custom designs. Perfect for branding or events.",
-    image: "/images/falcon-wings/service-hoodie-new.png",
+    image: "/images/falcon-wings/portfolio-3.jpg",
   },
   {
     icon: "⚽",
     title: "Football Jerseys",
     description:
       "Full sublimation jerseys for teams, clubs, and events. Vibrant colors guaranteed.",
-    image: "/images/falcon-wings/service-jersey-new.png",
+    image: "/images/falcon-wings/portfolio-2.jpg",
   },
 ];
 

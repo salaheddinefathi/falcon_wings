@@ -8,7 +8,7 @@ export default function CTA() {
     <section className="py-16 md:py-20 lg:py-24 bg-falcon-navy relative overflow-hidden">
       <div className="absolute inset-0">
         <Image
-          src="/images/falcon-wings/bg-dark.webp"
+          src="/images/falcon-wings/hero.jpg"
           alt=""
           fill
           sizes="100vw"
