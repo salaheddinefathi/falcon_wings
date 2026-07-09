@@ -13,12 +13,12 @@
     box-sizing: border-box;
   }
 
-  html {
-    scroll-behavior: smooth;
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
   }
 
   body {
     @apply bg-falcon-light text-gray-800 antialiased;
-    overflow-x: hidden;
   }
 }
