@@ -69,10 +69,10 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mb-10 md:mb-12"
         >
-          <span className="text-falcon-gold font-semibold text-sm uppercase tracking-widest">
+          <span className="text-falcon-blue font-semibold text-sm uppercase tracking-widest">
             Simple Process
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-falcon-navy leading-tight mt-2">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mt-2">
             How It Works
           </h2>
         </motion.div>
@@ -81,7 +81,7 @@ export default function HowItWorks() {
           <div className="hidden lg:block relative h-14">
             <div className="absolute top-1/2 -translate-y-1/2 left-[6%] right-[6%] h-[3px] bg-gray-200 rounded-full">
               <motion.div
-                className="h-full bg-falcon-gold rounded-full"
+                className="h-full bg-falcon-blue rounded-full"
                 initial={{ width: "0%" }}
                 animate={{ width: "100%" }}
                 transition={{
@@ -93,7 +93,7 @@ export default function HowItWorks() {
               />
             </div>
             <motion.div
-              className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-[18px] h-[18px] rounded-full bg-falcon-gold shadow-[0_0_12px_rgba(245,166,35,0.6)] z-10"
+              className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-[18px] h-[18px] rounded-full bg-falcon-blue shadow-[0_0_12px_rgba(245,166,35,0.6)] z-10"
               initial={{ left: "6%" }}
               animate={{ left: "94%" }}
               transition={{
@@ -107,7 +107,7 @@ export default function HowItWorks() {
 
           <div className="lg:hidden absolute left-[38px] top-0 bottom-0 w-[3px] bg-gray-200 rounded-full">
             <motion.div
-              className="w-full bg-falcon-gold rounded-full"
+              className="w-full bg-falcon-blue rounded-full"
               initial={{ height: "0%" }}
               animate={{ height: "100%" }}
               transition={{
@@ -119,7 +119,7 @@ export default function HowItWorks() {
             />
           </div>
           <motion.div
-            className="lg:hidden absolute left-[29px] top-0 -translate-x-1/2 w-[18px] h-[18px] rounded-full bg-falcon-gold shadow-[0_0_12px_rgba(245,166,35,0.6)] z-10"
+            className="lg:hidden absolute left-[29px] top-0 -translate-x-1/2 w-[18px] h-[18px] rounded-full bg-falcon-blue shadow-[0_0_12px_rgba(245,166,35,0.6)] z-10"
             initial={{ top: "0%" }}
             animate={{ top: "100%" }}
             transition={{
@@ -144,7 +144,7 @@ export default function HowItWorks() {
                   transition={{ delay: index * 0.1, duration: 0.4 }}
                   className={`flex lg:flex-col items-start lg:items-center gap-4 lg:gap-0 p-4 lg:p-5 rounded-2xl transition-all duration-500 ${
                     isActive
-                      ? "bg-white shadow-md border border-falcon-gold/30"
+                      ? "bg-white shadow-md border border-falcon-blue/30"
                       : "bg-transparent border border-transparent"
                   }`}
                 >
@@ -152,7 +152,7 @@ export default function HowItWorks() {
                     <div
                       className={`w-14 h-14 lg:w-[68px] lg:h-[68px] rounded-2xl flex items-center justify-center shrink-0 border-2 transition-all duration-500 ${
                         isActive
-                          ? "bg-falcon-gold text-falcon-navy border-falcon-gold shadow-lg shadow-falcon-gold/25"
+                          ? "bg-falcon-blue text-white border-falcon-blue shadow-lg shadow-falcon-blue/25"
                           : "bg-gray-100 text-gray-500 border-gray-300"
                       }`}
                     >
@@ -162,7 +162,7 @@ export default function HowItWorks() {
                   <div className="lg:text-center flex-1 lg:px-3">
                     <h3
                       className={`text-base lg:text-lg font-bold transition-colors duration-500 mb-1 ${
-                        isActive ? "text-falcon-navy" : "text-gray-500"
+                        isActive ? "text-white" : "text-gray-500"
                       }`}
                     >
                       {step.title}

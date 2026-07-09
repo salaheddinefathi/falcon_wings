@@ -75,10 +75,10 @@ export default function WhyChooseUs() {
           viewport={{ once: true }}
           className="text-center mb-12 md:mb-16"
         >
-          <span className="text-falcon-gold font-semibold text-sm uppercase tracking-widest">
+          <span className="text-falcon-blue font-semibold text-sm uppercase tracking-widest">
             Why Falcon Wings
           </span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-falcon-navy leading-tight mt-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mt-3">
             Why Choose Us
           </h2>
         </motion.div>
@@ -93,10 +93,10 @@ export default function WhyChooseUs() {
               transition={{ delay: index * 0.05 }}
               className="bg-white p-6 md:p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300"
             >
-              <div className="w-14 h-14 bg-falcon-gold/10 rounded-xl flex items-center justify-center text-falcon-gold mb-5">
+              <div className="w-14 h-14 bg-falcon-blue/10 rounded-xl flex items-center justify-center text-falcon-blue mb-5">
                 {reason.icon}
               </div>
-              <h3 className="text-xl md:text-2xl font-bold text-falcon-navy mb-3">
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
                 {reason.title}
               </h3>
               <p className="text-gray-600 leading-relaxed">

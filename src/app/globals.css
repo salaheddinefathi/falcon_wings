@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-falcon-navy: #0a1628;
-  --color-falcon-blue: #1e3a5f;
-  --color-falcon-gold: #f5a623;
+  --color-falcon-navy: #122040;
+  --color-falcon-blue: #0b409c;
+  --color-falcon-gold: #d79b27;
   --color-falcon-light: #f8fafc;
   --color-falcon-card: #ffffff;
 }

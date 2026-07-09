@@ -37,10 +37,10 @@ export default function Services() {
           viewport={{ once: true }}
           className="text-center mb-12 md:mb-16"
         >
-          <span className="text-falcon-gold font-semibold text-sm uppercase tracking-widest">
+          <span className="text-falcon-blue font-semibold text-sm uppercase tracking-widest">
             What We Offer
           </span>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-falcon-navy leading-tight mt-3">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mt-3">
             Our Services
           </h2>
         </motion.div>
@@ -67,7 +67,7 @@ export default function Services() {
               </div>
               <div className="p-6 md:p-8">
                 <span className="text-4xl block mb-4">{service.icon}</span>
-                <h3 className="text-xl md:text-2xl font-bold text-falcon-navy mb-3">
+                <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
                   {service.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
