@@ -51,7 +51,7 @@ export default function Navbar() {
             </div>
             <span className="text-xl md:text-2xl font-bold tracking-tight whitespace-nowrap">
               <span className="text-white">Falcon </span>
-              <span className="text-falcon-blue">Wings</span>
+              <span className="text-blue-500">Wings</span>
             </span>
           </a>
 

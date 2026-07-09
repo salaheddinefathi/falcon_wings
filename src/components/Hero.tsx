@@ -28,13 +28,10 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
           >
-            <span className="inline-block text-falcon-blue font-semibold text-sm md:text-base uppercase tracking-widest mb-4">
-              Premium Custom Printing
-            </span>
-            <h1 className="text-5xl sm:text-6xl lg:text-[72px] font-extrabold text-white leading-[1.08] mb-10">
+            <h1 className="text-5xl sm:text-6xl lg:text-[72px] font-extrabold text-white leading-[1.08] mb-10 mt-8">
               Your Vision,
               <br />
-              <span className="text-falcon-blue">Perfectly Printed</span>
+              <span className="text-blue-500">Perfectly Printed</span>
             </h1>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-4 w-full max-w-none mx-auto sm:mx-0">
               <a
