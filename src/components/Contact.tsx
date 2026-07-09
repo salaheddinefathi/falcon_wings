@@ -52,7 +52,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center mb-12 md:mb-16"
         >
-          <span className="text-orange-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-sky-400 font-semibold text-sm uppercase tracking-widest">
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-falcon-navy leading-tight mt-3">
@@ -69,7 +69,7 @@ export default function Contact() {
               viewport={{ once: true }}
               className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm text-center"
             >
-              <div className="w-12 h-12 bg-orange-400/10 rounded-xl flex items-center justify-center text-orange-400 mx-auto mb-4">
+              <div className="w-12 h-12 bg-sky-400/10 rounded-xl flex items-center justify-center text-sky-400 mx-auto mb-4">
                 {info.icon}
               </div>
               <h3 className="font-bold text-falcon-navy mb-1">{info.title}</h3>

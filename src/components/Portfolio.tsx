@@ -46,7 +46,7 @@ export default function Portfolio() {
           viewport={{ once: true }}
           className="text-center mb-12 md:mb-16"
         >
-          <span className="text-orange-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-sky-400 font-semibold text-sm uppercase tracking-widest">
             Our Work
           </span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-falcon-navy leading-tight mt-3">
@@ -73,7 +73,7 @@ export default function Portfolio() {
               />
               <div className="absolute inset-0 bg-falcon-navy/0 group-hover:bg-falcon-navy/70 transition-all duration-300 flex items-center justify-center">
                 <div className="text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4">
-                  <span className="text-orange-400 text-xs uppercase tracking-widest font-semibold">
+                  <span className="text-sky-400 text-xs uppercase tracking-widest font-semibold">
                     {project.category}
                   </span>
                   <h3 className="text-white font-bold text-lg mt-1">

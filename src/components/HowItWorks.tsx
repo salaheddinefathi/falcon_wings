@@ -70,7 +70,7 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mb-10 md:mb-12"
         >
-          <span className="text-orange-400 font-semibold text-sm uppercase tracking-widest">
+          <span className="text-sky-400 font-semibold text-sm uppercase tracking-widest">
             Simple Process
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-falcon-navy leading-tight mt-2">
@@ -93,7 +93,7 @@ export default function HowItWorks() {
                   transition={{ delay: index * 0.1, duration: 0.4 }}
                   className={`flex lg:flex-col items-start lg:items-center gap-4 lg:gap-0 p-4 lg:p-5 rounded-2xl transition-all duration-500 ${
                     isActive
-                      ? "bg-white shadow-md border border-orange-400/30"
+                      ? "bg-white shadow-md border border-sky-400/30"
                       : "bg-transparent border border-transparent"
                   }`}
                 >
@@ -101,7 +101,7 @@ export default function HowItWorks() {
                     <div
                       className={`w-14 h-14 lg:w-[68px] lg:h-[68px] rounded-2xl flex items-center justify-center shrink-0 border-2 transition-all duration-500 ${
                         isActive
-                          ? "bg-orange-400 text-black border-orange-400 shadow-lg shadow-orange-400/25"
+                          ? "bg-sky-400 text-[#071426] border-sky-400 shadow-lg shadow-sky-400/25"
                           : "bg-gray-100 text-gray-500 border-gray-300"
                       }`}
                     >
